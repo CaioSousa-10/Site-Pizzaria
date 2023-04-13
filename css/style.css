@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+header {
+    background: linear-gradient(to top, #fff, #ff0000);
+    color: black;
+    font-size: 1.8rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+figure {
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+    margin-right: 5%;
+    padding-bottom: 3px;
+    font-size: 1.6rem;
+    word-spacing: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px #000;
+}
+
+a:hover {
+    color: rgb(222, 225, 10);
+    text-shadow: 2px 2px 3px #000;
+}
+
+.conteudo-topo {
+    padding: 1.5rem;
+    padding-top: 22rem;
+    font-size: 1.6rem;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1096px;
+    
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000;
+    color: rgb(255, 0, 0);
+}
+
+h5 {
+    font-size: 3rem;
+    color: #ff0000;
+    text-shadow: 1px 1px 2px #000;
+    text-align: center;
+
+}
+
+.imagem-site {
+    border-radius: 10px 10px 50px 10px;
+    width: 40%;
+    height: 20%;
+}
+
