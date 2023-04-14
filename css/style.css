@@ -19,6 +19,16 @@ header {
     width: 100%;
 }
 
+.conteudo {
+    font-size: 1.6rem;
+    background-color: #fff;
+    padding: 1.5rem;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
 figure {
     text-align: center;
 }
@@ -28,20 +38,24 @@ nav {
     margin-right: 5%;
     padding-bottom: 3px;
     font-size: 1.6rem;
-    word-spacing: 10px;
+    word-spacing: 15px;
 
 }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: yellow;
     font-weight: bold;
     text-shadow: 2px 2px 3px #000;
 }
 
 a:hover {
-    color: rgb(222, 225, 10);
+    color: #fff;
     text-shadow: 2px 2px 3px #000;
+    background-color: #ff0000;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    border: solid 0.2rem rgb(188, 218, 17);
 }
 
 .conteudo-topo {
@@ -71,8 +85,25 @@ h5 {
 }
 
 .imagem-site {
-    border-radius: 10px 10px 50px 10px;
-    width: 40%;
-    height: 20%;
+    border-radius: 10px 10px 10px 10px;
+    width: 60%;
+    height: 40%;
 }
 
+#grid-conteudo {
+    background-color: #fff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.grid div {
+    background-color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
