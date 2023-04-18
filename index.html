@@ -11,9 +11,9 @@
 <body>
     <header>
         <nav>
-            <a href="#">PIZZA</a>
-            <a href="#">BEBIDAS</a>
-            <a href="#">SALGADOS</a>
+            <a href="#pizzas">PIZZA</a>
+            <a href="#bebidas">BEBIDAS</a>
+            <a href="#salgados">SALGADOS</a>
         </nav>
         <br>
         <figure>
@@ -23,7 +23,7 @@
     <div id="compras">
         <h4>Clique no Botão e Faça seu Pedido</h4>
         <br>
-        <button id="btn-compras">FAZER MEU PEDIDO</button>
+        <button id="btn-compras"> <a href="https://api.whatsapp.com/send?phone=5598981278807&text=Ol%C3%A1%20Gostaria%20de%20fazer%20o%20seguinte%20pedido:%20">FAZER MEU PEDIDO</a></button>
     </div>
     <br>
     <section class="conteudo-topo">
@@ -32,6 +32,8 @@
         <h5>de segunda a quinta todas as PIZZAS por</h5>
         <h5>apenas R$ 69,99</h5>
     </section>
+    <br>
+    <a href="#" id="pizzas" ></a>
     <br>
     <section class="conteudo" id="grid-conteudo">
         <h5>Cardápio de Pizzas</h5>
@@ -55,7 +57,7 @@
                     <figcaption><a href="#">Pizza de Marguerita</a></figcaption>
                 </figure>
             </div>
-            <div>
+             <div>
                 <figure>
                     <img src="imagens/mussarela.jpg" alt="pizza de mussarela" class="imagem-site">
                     <figcaption><a href="#">Pizza de Mussarela</a></figcaption>
@@ -68,7 +70,7 @@
                 </figure>
             </div>
             <div>
-                <figure>
+                 <figure>
                     <br>
                     <img src="imagens/portuguesa.jpg" alt="Pizza Portuguesa" class="imagem-site">
                     <figcaption><a href="#">Pizza Portuguesa</a></figcaption>
@@ -77,7 +79,9 @@
         </div>
     </section>
     <br>
-    <section class="conteudo">
+    <a href="#" id="bebidas"></a>
+    <br>
+    <section class="conteudo" id="grid-conteudo">
         <h5>Refrigerantes</h5>
         <br>
         <div class="grid">
@@ -120,8 +124,10 @@
         </div>
     </section>
     <br>
-    <section class="conteudo">
-        <h5>Salgado</h5>
+    <a href="#" id="salgados"></a>
+    <br>
+    <section class="conteudo" id="grid-conteudo" >
+        <h5>Salgados</h5>
         <br>
         <div class="grid">
             <div>
@@ -163,7 +169,7 @@
         </div>
     </section>
     <br>
-    
+
     <footer>
         <h3>Pizza do Bairro</h3>
         <h4>A melhor Opção da Região</h4>
